@@ -1,0 +1,137 @@
+
+body{
+  margin:0;
+background-image: url(images/pattern-background-desktop.svg);
+background-repeat: repeat-x;
+background-color: hsl(225, 100%, 94%);
+}
+.backgaround{
+
+
+padding-top: 10px;
+
+}
+.oderwindow{
+  width:400px;
+  height: 600px;
+  background-color: white;
+  margin: 100px auto;
+  border-radius: 15px;
+  text-align: center;
+box-shadow: 0 8px 15px -9px gray;
+
+
+}
+.images{
+  background-image: url(images/illustration-hero.svg);
+  width:400px;
+  height: 200px;
+  border-radius: 15px 15px 0 0;
+}
+
+.pricebox{
+  margin: 5px 30px 5px;
+  background-color:hsl(225, 100%, 98%);
+  border-radius: 15px;
+  padding: 0px 0;
+  position: relative;
+    text-align: left;
+}
+.logo{
+  position: absolute;
+  left: 10px;
+  bottom: 25px;
+
+}
+.Plan{
+  position: relative;
+left:65px;
+top:23px;
+}
+.amount{
+  position: relative;
+  top: 17px;
+  left:65px;
+}
+.change{
+  position: relative;
+  text-align: right;
+  margin-right:10px;
+  bottom: 36px;
+  left:285px;
+}
+h1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+.paragraph{
+  margin: 0 50px;
+}
+
+.mattar{
+  margin: 20px auto;
+}
+p{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color: #808080;
+}
+h4{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+a{
+  text-align: right;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: hsl(245, 75%, 52%);
+}
+a:hover{
+  color:  hsl(224, 23%, 55%);
+}
+.btn{
+    font-family: 'Red Hat Display', sans-serif;
+      font-weight: 700;
+    margin:  20px 0;
+    box-shadow: 0 10px 15px -9px gray;
+      --bs-btn-padding-x: 6.9rem;
+}
+.cancel{
+  text-decoration:none;
+  color:  hsl(224, 23%, 55%);
+}
+.cancel:hover{
+  color: hsl(223, 47%, 23%);
+}
+
+@media (max-width:375px) {
+  .oderwindow{
+    width:350px;
+    height: 600px;
+      margin: 30px auto;
+  }
+  img{
+
+  }
+  .images{
+    text-align: center;
+    width:auto;
+    height: 220px;
+    border-radius: 15px 15px 0 0;}
+    .change{
+      position: relative;
+      text-align: right;
+      margin-right:10px;
+      bottom: 36px;
+      left:215px;
+    }
+    .btn{
+      --bs-btn-padding-x: 4.9rem;
+    }
+    body{
+    background-image: url(images/pattern-background-Mobile.svg);
+  }
+}
